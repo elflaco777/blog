@@ -1,0 +1,11 @@
+<h1> Users On_NET <%= @nombre   %> </h1>
+<p><%=  @comentario %></p>
+<%= form_tag :action => 'form' do %>
+
+<p> Name:
+<%= text_field_tag 'nombre_usuario' , @nombre %> </p>
+<p> Comment:
+<%= text_field_tag 'comentario' , @comentario %> </p>
+
+<%= submit_tag 'Send' %>
+<% end %>
