@@ -16,6 +16,7 @@ Rails.application.routes.draw do
    #get ':controller(/:action(/:id))'
    # usando post funciona bien 
    # usando este mensaje funciona correctamente
+   # en rails 3 es diferente
    post ':controller(/:action(/:id))'
    
 
@@ -64,4 +65,7 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  #
+  #
+  #
 end
