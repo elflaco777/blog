@@ -9,6 +9,11 @@
 
 
 <%= submit_tag 'Registrarse' %>
+<% @nombres.each do |n| %>
+<%= n.nombre %>
+<br>
+<br>
+<% end %>
 <% end %>
 </div>
 
